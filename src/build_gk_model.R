@@ -42,13 +42,30 @@ model_data <- gk_data %>%
   mutate( x_coord = if_else(Side == "L", -Width, Width),
           y_coord = Dist,
           Result = as.factor(str_to_title(Result)),
-          
+          Cond = as.factor(Cond),
           Foot = str_to_title(Foot),
           # Mirror left foot kickers to right field
           x_norm = if_else(Foot == "Left", -x_coord, x_coord),
-          # Calculate Angle: α = arctan(a / b)
-          Angle =  atan(x_norm/y_coord) * 180 / pi
+          # Calculate Angle: Find using goal width, Hypotenuse and law of cosines 
+          goal_width = 5.5,
+          x_1 = x_norm - goal_width/2,
+          x_2 = x_norm + goal_width/2,
+          h_1 = sqrt(x_1^2 + y_coord^2),
+          h_2 = sqrt(x_2^2 + y_coord^2),
+          
+          Angle = acos( (h_1^2 + h_2^2 - goal_width^2)/(2*h_1*h_2) )
   )
+
+
+# Build Model
+model_gk <- glm(formula = Result ~ Angle + Cond ,
+                data =  model_data,
+                family = binomial )
+
+summary(model_gk)
+
+
+
 
 # Plot 2
 model_data %>%
@@ -62,17 +79,6 @@ model_data %>%
     subtitle = "Rounds 1-2",
     caption = "Data collected by @NRLFanalytics Twitter"
   )
-
-# Build Model
-model_gk <- glm(formula = Result ~ Angle + y_coord,
-                data =  model_data,
-                family = binomial )
-
-summary(model_gk)
-
-
-
-
 
 # Generate more data
 model_data_g <- model_data
