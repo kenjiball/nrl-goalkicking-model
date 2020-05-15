@@ -1,0 +1,129 @@
+﻿Kick,MatchID,Rd,Cond,HomeTeam,AwayTeam,HomeSc,AwaySc,Player,Team,Foot,Time,Margin,Type,Width,Side,Dist,Result,Direction,Amount
+1,2020110110,1,Fine,Parramatta,Canterbury,0,0,Brandon Wakeham,Canterbury,right,0:12:14,0,P,19,L,22,success,middle,left
+2,2020110110,1,Fine,Parramatta,Canterbury,0,2,Brandon Wakeham,Canterbury,right,0:15:46,2,P,16,L,21,miss,right,wide
+3,2020110110,1,Fine,Parramatta,Canterbury,0,2,Mitchell Moses,Parramatta,right,0:34:41,-2,P,6,R,19,success,middle,middle
+4,2020110110,1,Fine,Parramatta,Canterbury,6,2,Mitchell Moses,Parramatta,right,1:06:00,4,C,3,L,10,success,middle,middle
+5,2020110120,1,Fine,Canberra,Gold Coast,4,0,Jarrod Croker,Canberra,left,0:03:52,4,C,18,L,19,success,middle,middle
+6,2020110120,1,Fine,Canberra,Gold Coast,10,0,Jarrod Croker,Canberra,left,0:14:43,10,C,14,L,16,success,middle,left
+7,2020110120,1,Fine,Canberra,Gold Coast,16,0,Jarrod Croker,Canberra,left,0:31:05,16,C,3,R,10,success,middle,middle
+8,2020110120,1,Fine,Canberra,Gold Coast,16,4,Ashley Taylor,Gold Coast,right,0:46:14,-12,C,15,R,17,success,middle,left
+9,2020110120,1,Fine,Canberra,Gold Coast,22,6,Jarrod Croker,Canberra,left,1:06:35,16,C,6,L,11,success,middle,right
+10,2020110130,1,Fine,North Queensland,Brisbane,0,4,Jamayne Isaako,Brisbane,right,0:12:41,4,C,5,R,10,success,middle,right
+11,2020110130,1,Fine,North Queensland,Brisbane,4,6,Valentine Holmes,North Queensland,right,0:15:42,-2,C,34,L,26,miss,right,wide
+12,2020110130,1,Fine,North Queensland,Brisbane,4,10,Jamayne Isaako,Brisbane,right,0:21:18,6,C,16,R,22,success,middle,middle
+13,2020110130,1,Fine,North Queensland,Brisbane,8,12,Valentine Holmes,North Queensland,right,0:34:44,-4,C,34,R,24,miss,right,wide
+14,2020110130,1,Fine,North Queensland,Brisbane,8,12,Michael Morgan,North Queensland,right,0:40:00,-4,F,2,R,42,success,middle,middle
+15,2020110130,1,Fine,North Queensland,Brisbane,9,16,Jamayne Isaako,Brisbane,right,0:42:52,7,C,15,R,18,success,middle,middle
+16,2020110130,1,Fine,North Queensland,Brisbane,9,22,Jamayne Isaako,Brisbane,right,0:59:22,13,C,0,M,11,success,middle,middle
+17,2020110130,1,Fine,North Queensland,Brisbane,9,28,Jesse Arthars,Brisbane,right,1:02:08,19,C,27,R,22,miss,left,wide
+18,2020110130,1,Fine,North Queensland,Brisbane,13,28,Kyle Feldt,North Queensland,right,1:05:58,15,C,4,L,10,success,middle,middle
+19,2020110130,1,Fine,North Queensland,Brisbane,19,28,Kyle Feldt,North Queensland,right,1:15:22,9,C,20,L,15,success,middle,middle
+20,2020110140,1,Rain,Newcastle,Warriors,4,0,Kalyn Ponga,Newcastle,left,0:09:42,4,C,4,L,11,success,middle,middle
+21,2020110140,1,Rain,Newcastle,Warriors,10,0,Kalyn Ponga,Newcastle,left,0:19:13,10,C,19,L,22,miss,right,narrow
+22,2020110140,1,Rain,Newcastle,Warriors,10,0,Kalyn Ponga,Newcastle,left,0:43:24,10,P,4,R,12,success,middle,middle
+23,2020110140,1,Rain,Newcastle,Warriors,12,0,Kalyn Ponga,Newcastle,left,0:49:04,12,P,13,R,16,success,middle,left
+24,2020110140,1,Rain,Newcastle,Warriors,18,0,Kalyn Ponga,Newcastle,left,0:54:45,18,C,11,L,16,success,middle,right
+25,2020110150,1,Rain,South Sydney,Cronulla,0,0,Shaun Johnson,Cronulla,right,0:06:16,0,P,3,R,14,success,middle,middle
+26,2020110150,1,Rain,South Sydney,Cronulla,4,2,Adam Reynolds,South Sydney,right,0:12:36,2,C,5,R,10,success,middle,middle
+27,2020110150,1,Rain,South Sydney,Cronulla,6,2,Adam Reynolds,South Sydney,right,0:18:28,4,P,5,L,10,success,middle,middle
+28,2020110150,1,Rain,South Sydney,Cronulla,8,2,Adam Reynolds,South Sydney,right,0:22:53,6,P,6,L,11,success,middle,middle
+29,2020110150,1,Rain,South Sydney,Cronulla,10,6,Shaun Johnson,Cronulla,right,0:33:40,-4,C,13,L,15,success,middle,right
+30,2020110150,1,Rain,South Sydney,Cronulla,14,8,Adam Reynolds,South Sydney,right,0:40:00,6,C,33,L,24,success,right post,in
+31,2020110150,1,Rain,South Sydney,Cronulla,20,8,Adam Reynolds,South Sydney,right,0:49:04,12,C,8,L,12,success,middle,middle
+32,2020110150,1,Rain,South Sydney,Cronulla,22,12,Shaun Johnson,Cronulla,right,1:03:24,-10,C,30,R,24,success,middle,right
+33,2020110150,1,Rain,South Sydney,Cronulla,22,18,Shaun Johnson,Cronulla,right,1:05:50,-4,C,34,R,24,miss,right,wide
+34,2020110160,1,Fine,Penrith,Sydney,0,0,Kyle Flanagan,Sydney,right,0:02:17,0,P,8,L,12,success,middle,middle
+35,2020110160,1,Fine,Penrith,Sydney,0,6,Kyle Flanagan,Sydney,right,0:05:06,6,C,24,R,23,miss,right,narrow
+36,2020110160,1,Fine,Penrith,Sydney,0,10,Kyle Flanagan,Sydney,right,0:20:50,10,C,17,L,21,success,middle,middle
+37,2020110160,1,Fine,Penrith,Sydney,4,12,Nathan Cleary,Penrith,right,0:28:25,-8,C,25,L,21,success,middle,left
+38,2020110160,1,Fine,Penrith,Sydney,6,12,Nathan Cleary,Penrith,right,0:47:52,-6,P,2,L,23,success,middle,middle
+39,2020110160,1,Fine,Penrith,Sydney,8,12,Kyle Flanagan,Sydney,right,0:57:26,4,P,14,L,30,success,middle,middle
+40,2020110160,1,Fine,Penrith,Sydney,12,14,Nathan Cleary,Penrith,right,1:04:31,-2,C,10,L,12,success,middle,middle
+41,2020110160,1,Fine,Penrith,Sydney,18,14,Nathan Cleary,Penrith,right,1:10:54,4,C,20,L,19,success,middle,middle
+42,2020110160,1,Fine,Penrith,Sydney,20,14,Nathan Cleary,Penrith,right,1:16:45,6,F,1,R,21,miss,left,wide
+43,2020110170,1,Rain,Manly,Melbourne,0,0,Cameron Smith,Melbourne,left,0:06:36,0,P,13,L,19,success,middle,left
+44,2020110170,1,Rain,Manly,Melbourne,0,2,Reuben Garrick,Manly,right,0:34:10,-2,P,24,L,23,success,middle,right
+45,2020110170,1,Rain,Manly,Melbourne,2,2,Reuben Garrick,Manly,right,0:38:24,0,P,17,R,19,success,middle,left
+46,2020110170,1,Rain,Manly,Melbourne,4,6,Cameron Smith,Melbourne,left,1:02:21,2,C,34,R,22,success,middle,middle
+47,2020110170,1,Rain,Manly,Melbourne,4,12,Cameron Smith,Melbourne,left,1:05:09,8,C,34,R,22,success,middle,right
+48,2020110170,1,Rain,Manly,Melbourne,4,18,Cameron Smith,Melbourne,left,1:15:33,14,C,16,R,19,miss,left,narrow
+49,2020110180,1,Rain,St George Illawarra,Wests,4,0,Zac Lomax,St George Illawarra,right,0:02:17,4,C,0,M,10,success,middle,middle
+50,2020110180,1,Rain,St George Illawarra,Wests,6,4,Benji Marshall,Wests,right,0:14:01,-2,C,33,R,24,success,middle,right
+51,2020110180,1,Rain,St George Illawarra,Wests,6,6,Benji Marshall,Wests,right,0:21:06,0,P,20,L,20,success,middle,right
+52,2020110180,1,Rain,St George Illawarra,Wests,10,8,Zac Lomax,St George Illawarra,right,0:26:48,2,C,4,L,10,success,middle,middle
+53,2020110180,1,Rain,St George Illawarra,Wests,12,8,Zac Lomax,St George Illawarra,right,0:46:14,4,P,13,L,29,success,middle,right
+54,2020110180,1,Rain,St George Illawarra,Wests,14,12,Benji Marshall,Wests,right,0:50:29,-2,C,15,L,17,success,middle,middle
+55,2020110180,1,Rain,St George Illawarra,Wests,14,18,Benji Marshall,Wests,right,1:01:03,4,C,28,R,20,miss,left,wide
+56,2020110180,1,Rain,St George Illawarra,Wests,14,22,Benji Marshall,Wests,right,1:20:00,8,C,14,R,18,success,middle,right
+57,2020110210,2,Fine,Canterbury,North Queensland,4,0,Brandon Wakeham,Canterbury,right,0:05:39,4,C,16,L,22,success,middle,middle
+58,2020110210,2,Fine,Canterbury,North Queensland,6,4,Valentine Holmes,North Queensland,right,0:13:30,-2,C,24,R,22,miss,left,narrow
+59,2020110210,2,Fine,Canterbury,North Queensland,6,10,Valentine Holmes,North Queensland,right,0:18:06,4,C,14,R,15,success,middle,right
+60,2020110210,2,Fine,Canterbury,North Queensland,6,14,Valentine Holmes,North Queensland,right,0:26:00,8,C,33,L,25,success,middle,left
+61,2020110210,2,Fine,Canterbury,North Queensland,6,20,Valentine Holmes,North Queensland,right,0:37:33,14,C,12,L,12,success,middle,right
+62,2020110210,2,Fine,Canterbury,North Queensland,10,20,Brandon Wakeham,Canterbury,right,0:46:29,-10,C,23,R,24,success,middle,middle
+63,2020110210,2,Fine,Canterbury,North Queensland,12,22,Valentine Holmes,North Queensland,right,0:57:09,10,P,11,L,13,success,middle,middle
+64,2020110210,2,Fine,Canterbury,North Queensland,14,24,Brandon Wakeham,Canterbury,right,1:19:59,-10,C,33,R,23,miss,left,wide
+65,2020110220,2,Fine,St George Illawarra,Penrith,0,4,Nathan Cleary,Penrith,right,0:10:57,4,C,6,R,12,success,middle,middle
+66,2020110220,2,Fine,St George Illawarra,Penrith,0,10,Nathan Cleary,Penrith,right,0:16:21,10,C,8,L,11,success,middle,middle
+67,2020110220,2,Fine,St George Illawarra,Penrith,4,12,Zac Lomax,St George Illawarra,right,0:24:20,-8,C,32,L,23,miss,right,wide
+68,2020110220,2,Fine,St George Illawarra,Penrith,8,12,Zac Lomax,St George Illawarra,right,0:29:55,-4,C,22,L,19,success,middle,left
+69,2020110220,2,Fine,St George Illawarra,Penrith,14,12,Zac Lomax,St George Illawarra,right,0:36:24,2,C,32,R,21,success,middle,middle
+70,2020110220,2,Fine,St George Illawarra,Penrith,16,16,Nathan Cleary,Penrith,right,0:53:07,0,C,15,L,16,success,middle,left
+71,2020110220,2,Fine,St George Illawarra,Penrith,20,18,Zac Lomax,St George Illawarra,right,1:00:36,2,C,26,R,22,success,middle,left
+72,2020110220,2,Fine,St George Illawarra,Penrith,26,18,Zac Lomax,St George Illawarra,right,1:04:49,8,C,6,R,10,success,middle,middle
+73,2020110220,2,Fine,St George Illawarra,Penrith,28,24,Nathan Cleary,Penrith,right,1:09:37,-4,C,24,L,21,success,middle,middle
+74,2020110220,2,Fine,St George Illawarra,Penrith,28,28,Nathan Cleary,Penrith,right,1:12:00,0,C,0,M,10,success,middle,left
+75,2020110220,2,Fine,St George Illawarra,Penrith,28,30,Nathan Cleary,Penrith,right,1:18:42,2,P,5,L,11,success,middle,left
+76,2020110230,2,Fine,Brisbane,South Sydney,4,0,Jamayne Isaako,Brisbane,right,0:08:13,4,C,31,R,22,miss,right post,back
+77,2020110230,2,Fine,Brisbane,South Sydney,8,0,Jamayne Isaako,Brisbane,right,0:19:08,8,C,30,R,23,miss,left,wide
+78,2020110230,2,Fine,Brisbane,South Sydney,8,0,Jamayne Isaako,Brisbane,right,0:23:51,8,P,13,L,24,success,middle,left
+79,2020110230,2,Fine,Brisbane,South Sydney,10,4,Adam Reynolds,South Sydney,right,0:31:53,-6,C,34,L,23,miss,left,wide
+80,2020110230,2,Fine,Brisbane,South Sydney,10,8,Adam Reynolds,South Sydney,right,0:36:01,-2,C,30,R,24,success,middle,middle
+81,2020110230,2,Fine,Brisbane,South Sydney,10,10,Adam Reynolds,South Sydney,right,0:39:43,0,P,1,R,10,success,middle,middle
+82,2020110230,2,Fine,Brisbane,South Sydney,14,12,Jamayne Isaako,Brisbane,right,0:50:17,2,C,32,R,23,success,middle,middle
+83,2020110230,2,Fine,Brisbane,South Sydney,20,12,Jamayne Isaako,Brisbane,right,0:58:31,8,C,0,M,10,success,middle,middle
+84,2020110230,2,Fine,Brisbane,South Sydney,22,16,Adam Reynolds,South Sydney,right,1:14:13,-6,C,25,L,20,success,middle,middle
+85,2020110240,2,Fine,New Zealand,Canberra,0,4,Jarrod Croker,Canberra,left,0:23:07,4,C,20,L,18,success,middle,left
+86,2020110240,2,Fine,New Zealand,Canberra,0,10,Jarrod Croker,Canberra,left,0:44:34,10,C,5,L,11,success,middle,right
+87,2020110240,2,Fine,New Zealand,Canberra,0,16,Jarrod Croker,Canberra,left,0:48:24,16,C,32,L,21,miss,right,wide
+88,2020110240,2,Fine,New Zealand,Canberra,4,16,Chanel Harris-Tevita,New Zealand,right,1:15:16,-12,C,0,M,11,success,middle,middle
+89,2020110240,2,Fine,New Zealand,Canberra,6,20,Jarrod Croker,Canberra,left,1:19:59,14,C,29,R,21,miss,right,wide
+90,2020110250,2,Fine,Sydney,Manly,0,0,Kyle Flanagan,Sydney,right,0:02:57,0,P,5,L,11,success,middle,middle
+91,2020110250,2,Fine,Sydney,Manly,2,0,Reuben Garrick,Manly,right,0:08:04,-2,P,3,L,11,success,middle,middle
+92,2020110250,2,Fine,Sydney,Manly,2,6,Reuben Garrick,Manly,right,0:14:27,4,C,20,L,22,miss,left,wide
+93,2020110250,2,Fine,Sydney,Manly,6,6,Kyle Flanagan,Sydney,right,0:30:08,0,C,25,L,25,miss,left,wide
+94,2020110250,2,Fine,Sydney,Manly,6,6,Reuben Garrick,Manly,right,1:03:03,0,P,11,L,11,success,middle,middle
+95,2020110250,2,Fine,Sydney,Manly,6,8,Kyle Flanagan,Sydney,right,1:06:47,-2,P,9,R,31,success,middle,middle
+96,2020110250,2,Fine,Sydney,Manly,8,8,Luke Keary,Sydney,right,1:13:32,0,F,4,L,20,miss,left post,back
+97,2020110250,2,Fine,Sydney,Manly,8,8,Daly Cherry-Evans,Manly,right,1:15:46,0,F,0,M,23,success,middle,middle
+98,2020110260,2,Fine,Cronulla,Melbourne,0,0,Cameron Smith,Melbourne,left,0:06:25,0,P,1,L,11,success,middle,middle
+99,2020110260,2,Fine,Cronulla,Melbourne,0,2,Shaun Johnson,Cronulla,right,0:12:09,-2,P,13,R,31,success,middle,middle
+100,2020110260,2,Fine,Cronulla,Melbourne,2,2,Shaun Johnson,Cronulla,right,0:21:40,0,P,7,R,14,success,middle,right
+101,2020110260,2,Fine,Cronulla,Melbourne,4,2,Cameron Smith,Melbourne,left,0:47:57,-2,P,0,M,11,success,middle,middle
+102,2020110260,2,Fine,Cronulla,Melbourne,8,4,Shaun Johnson,Cronulla,right,1:00:31,4,C,15,L,18,success,middle,middle
+103,2020110260,2,Fine,Cronulla,Melbourne,10,8,Cameron Smith,Melbourne,left,1:11:48,-2,C,8,L,11,success,middle,middle
+104,2020110260,2,Fine,Cronulla,Melbourne,10,10,Cameron Smith,Melbourne,left,1:16:32,0,P,1,L,27,success,middle,middle
+105,2020110270,2,Fine,Wests,Newcastle,0,4,Kalyn Ponga,Newcastle,left,0:06:23,4,C,33,L,23,miss,left post,out
+106,2020110270,2,Fine,Wests,Newcastle,0,8,Kalyn Ponga,Newcastle,left,0:10:47,8,C,0,M,10,success,middle,right
+107,2020110270,2,Fine,Wests,Newcastle,4,10,Benji Marshall,Wests,right,0:16:33,-6,C,14,R,14,success,left post,in
+108,2020110270,2,Fine,Wests,Newcastle,6,14,Kalyn Ponga,Newcastle,left,0:25:46,8,C,13,L,16,success,middle,right
+109,2020110270,2,Fine,Wests,Newcastle,6,16,Kalyn Ponga,Newcastle,left,0:36:32,10,P,9,R,19,success,middle,right
+110,2020110270,2,Fine,Wests,Newcastle,10,18,Benji Marshall,Wests,right,0:40:00,-8,C,15,L,14,success,middle,middle
+111,2020110270,2,Fine,Wests,Newcastle,12,22,Kalyn Ponga,Newcastle,left,0:45:08,10,C,17,L,22,miss,right,narrow
+112,2020110270,2,Fine,Wests,Newcastle,16,22,Benji Marshall,Wests,right,0:48:14,-6,C,13,L,14,success,middle,middle
+113,2020110270,2,Fine,Wests,Newcastle,18,26,Kalyn Ponga,Newcastle,left,0:51:12,8,C,29,L,23,miss,left,wide
+114,2020110270,2,Fine,Wests,Newcastle,22,26,Benji Marshall,Wests,right,1:00:18,-4,C,23,R,18,success,middle,middle
+115,2020110270,2,Fine,Wests,Newcastle,24,30,Kalyn Ponga,Newcastle,left,1:05:39,6,C,14,L,19,success,middle,left
+116,2020110270,2,Fine,Wests,Newcastle,24,36,Kalyn Ponga,Newcastle,left,1:09:32,12,C,19,L,21,success,middle,left
+117,2020110270,2,Fine,Wests,Newcastle,24,42,Kalyn Ponga,Newcastle,left,1:17:59,18,C,14,L,20,miss,left,wide
+118,2020110280,2,Fine,Gold Coast,Parramatta,0,4,Mitchell Moses,Parramatta,right,0:06:57,4,C,33,R,21,success,middle,left
+119,2020110280,2,Fine,Gold Coast,Parramatta,0,10,Mitchell Moses,Parramatta,right,0:09:42,10,C,8,L,12,success,middle,middle
+120,2020110280,2,Fine,Gold Coast,Parramatta,4,12,Ashley Taylor,Gold Coast,right,0:16:23,-8,C,28,L,21,miss,right,wide
+121,2020110280,2,Fine,Gold Coast,Parramatta,4,12,Ashley Taylor,Gold Coast,right,0:16:49,-8,P,0,M,10,success,middle,left
+122,2020110280,2,Fine,Gold Coast,Parramatta,6,12,Mitchell Moses,Parramatta,right,0:31:32,6,P,0,M,11,success,middle,middle
+123,2020110280,2,Fine,Gold Coast,Parramatta,6,18,Mitchell Moses,Parramatta,right,0:57:53,12,C,12,L,13,success,middle,left
+124,2020110280,2,Fine,Gold Coast,Parramatta,6,24,Mitchell Moses,Parramatta,right,1:01:40,18,C,17,R,15,success,middle,middle
+125,2020110280,2,Fine,Gold Coast,Parramatta,6,30,Mitchell Moses,Parramatta,right,1:06:03,24,C,23,L,19,success,middle,middle
+126,2020110280,2,Fine,Gold Coast,Parramatta,6,36,Mitchell Moses,Parramatta,right,1:11:39,30,C,15,R,14,success,middle,left
+127,2020110280,2,Fine,Gold Coast,Parramatta,6,42,Mitchell Moses,Parramatta,right,1:15:55,36,C,33,L,21,success,middle,left
+128,2020110280,2,Fine,Gold Coast,Parramatta,6,44,Mitchell Moses,Parramatta,right,1:19:59,38,P,4,R,10,success,middle,middle
