@@ -1,7 +1,7 @@
 # nrl-goalkicking-model
 NRL Goal Kicking Model
 
-This Model uses a logistic regression to fit a model used to predict the success rate of a goal attempt.
+We use a logistic regression to fit a model that predicts the success rate of a goal attempt.
 
 ## Getting Started
 
