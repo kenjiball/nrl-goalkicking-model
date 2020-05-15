@@ -81,15 +81,16 @@ ratings_data <- model_data %>%
                   mutate(conversion_probability = predict(model_gk, newdata=model_data, type="response"), 
                          expected_points = 2 * conversion_probability, 
                          actual_points = if_else(Result_num == 1, 2, 0), 
-                         expected_points_added = actual_points - expected_points)
+                         predicted_score_value = actual_points - expected_points)
 
 # Summarise by Player
 ratings_data %>% 
   group_by(Player) %>%
   summarise(attempts = n(), 
-            mean_epa = mean(expected_points_added),
-            total_epa = sum(expected_points_added)) %>%
-  arrange(desc(total_epa))
+            success_rate = sum(Result_num)/attempts,
+            mean_psv = mean(predicted_score_value),
+            total_psv = sum(predicted_score_value)) %>%
+  arrange(desc(total_psv))
 
 
 
