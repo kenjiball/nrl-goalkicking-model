@@ -42,35 +42,61 @@ model_data <- gk_data %>%
   mutate( x_coord = if_else(Side == "L", -Width, Width),
           y_coord = Dist,
           Result = as.factor(str_to_title(Result)),
+          Result_num = if_else(Result == "Success", 1, 0, missing = 0),
           Cond = as.factor(Cond),
           Foot = str_to_title(Foot),
           # Mirror left foot kickers to right field
           x_norm = if_else(Foot == "Left", -x_coord, x_coord),
-          # Calculate Angle: Find using goal width, Hypotenuse and law of cosines 
+          # Calculate Alpha:
+          # Find using goal width, Hypotenuse and law of cosines
           goal_width = 5.5,
           x_1 = x_norm - goal_width/2,
           x_2 = x_norm + goal_width/2,
           h_1 = sqrt(x_1^2 + y_coord^2),
           h_2 = sqrt(x_2^2 + y_coord^2),
+          Angle = acos( (h_1^2 + h_2^2 - goal_width^2)/(2*h_1*h_2) ),
+          # Change Angle from radians to degrees
+          Alpha = Angle * 180/pi,
           
-          Angle = acos( (h_1^2 + h_2^2 - goal_width^2)/(2*h_1*h_2) )
+          # Distance to goal
+          Distance = sqrt(x_norm^2 + y_coord^2)
   )
 
 
 # Build Model
-model_gk <- glm(formula = Result ~ Angle + Cond ,
-                data =  model_data,
-                family = binomial )
+model_gk <- glm(formula = Result ~  Alpha + Alpha:Distance,
+                family = binomial,
+                data =  model_data)
 
 summary(model_gk)
 
+# Run Predict and Plot the logistic regression outcomes (One Feature Only)
+newdat <- data.frame(Field_side=seq(min(model_data$Field_side), max(model_data$Field_side),len=100))
+newdat$Result_num = predict(model_gk, newdata=newdat, type="response")
+plot(Result_num ~ Field_side, data=model_data, col="red4")
+lines(Result_num ~ Field_side, newdat, col="green4", lwd=2)
+
+# Run predict to build expected goals
+ratings_data <- model_data %>% 
+                  mutate(conversion_probability = predict(model_gk, newdata=model_data, type="response"), 
+                         expected_points = 2 * conversion_probability, 
+                         actual_points = if_else(Result_num == 1, 2, 0), 
+                         expected_points_added = actual_points - expected_points)
+
+# Summarise by Player
+ratings_data %>% 
+  group_by(Player) %>%
+  summarise(attempts = n(), 
+            mean_epa = mean(expected_points_added),
+            total_epa = sum(expected_points_added)) %>%
+  arrange(desc(total_epa))
 
 
 
-# Plot 2
+# Plot 2 - Player Attempts
 model_data %>%
-  filter(Type == "C") %>% 
-  ggplot( aes(x = x_norm, y = y_coord, col = Result)) +
+  filter(Type == "C" & Player == "Cameron Smith") %>% 
+  ggplot( aes(x = x_coord, y = y_coord, col = Result)) +
   background_image(img) +
   geom_point() +
   scale_y_reverse(limits = c(50,2)) +
@@ -79,9 +105,6 @@ model_data %>%
     subtitle = "Rounds 1-2",
     caption = "Data collected by @NRLFanalytics Twitter"
   )
-
-# Generate more data
-model_data_g <- model_data
 
 
 
